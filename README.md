@@ -7,8 +7,9 @@
   <li>Install openjdk 8 jre</li>
   <li>Using npm, install couchimport</li>
   <li>Get mongodb-database-tools for ubuntu</li>
-  <li>Install mongodb</li>
-  <li>Install cassandra</li>
+  <li>Install mongodb (make sure you can access mongodb cli)</li>
+  <li>Install cassandra (make sure you can access the cqlsh)</li>
+<li>Set up the IBM Cloudant connection (use your credential from IBM Cloudant instance) from your local ubuntu terminal</li>
 </ol> 
 
 <p>Here is my complete syntax for the assignment:</p>
@@ -31,7 +32,7 @@ curl -X POST $CLOUDANTURL/movies/_find \
             "Director":"Richard Gage"
         }
     }'
-
+    
 == 4 create index title
 curl -X POST $CLOUDANTURL/movies/_index \
 -H"Content-Type: application/json" \
