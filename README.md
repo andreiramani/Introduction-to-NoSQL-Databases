@@ -1,7 +1,7 @@
 # Introduction to NoSQL Databases (Peer Graded Assignment)
 ## Course 10 from 13 (Part of IBM Data Engineering Professional Certificate by Coursera)
 
-<p>Having hard time on IBM Skill Network IDE, so I did the assignment fully using WSL Ubuntu in Windows 10 Pro x64. There are some preparation to do it:</p>
+<p>Having hard time on up and running IBM Skill Network Lab, I decided doing the assignment fully using WSL Ubuntu 20.04 on my local Windows 10 Pro x64. There are some preparation step to do it:</p>
 <ol>
   <li>Install npm</li>
   <li>Install openjdk 8 jre</li>
@@ -9,10 +9,10 @@
   <li>Get mongodb-database-tools for ubuntu</li>
   <li>Install mongodb (make sure you can access mongodb cli)</li>
   <li>Install cassandra (make sure you can access the cqlsh)</li>
-<li>Set up the IBM Cloudant connection (use your credential from IBM Cloudant instance) from your local ubuntu terminal</li>
+<li>Set up the IBM Cloudant connection (use credential from IBM Cloudant instance), using curl - make sure you can access your Cloudant DB from local ubuntu terminal</li>
 </ol> 
 
-<p>Here is my complete syntax for the assignment:</p>
+<p>Here is my complete syntax on each step, for the whole assignment (screenshoot provided):</p>
 <code>
 == 2 create index on table movies
 curl -X POST $CLOUDANTURL/movies/_index \
