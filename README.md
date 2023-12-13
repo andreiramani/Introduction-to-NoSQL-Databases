@@ -1,5 +1,5 @@
-# Introduction-to-NoSQL-Databases
-## Part of IBM Data Engineering Professional Certificate by Coursera
+# Introduction to NoSQL Databases (Peer Graded Assignment)
+## Course 10 from 13 (Part of IBM Data Engineering Professional Certificate by Coursera)
 
 <p>Having hard time on IBM Skill Network IDE, so I did the assignment fully using WSL Ubuntu in Windows 10 Pro x64. There are some preparation to do it:</p>
 <ol>
